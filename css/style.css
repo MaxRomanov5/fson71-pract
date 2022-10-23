@@ -26,3 +26,33 @@ body{
     color: var(--secondary-text-color); 
     background-color: black; 
 }
+.hero {
+    background-color: var(--primary-color);
+}
+.hero-pretitle {
+    font-weight: 500;
+    line-height: calc(20/16);
+    color: var(--secondary-text-color);
+    text-align: center;
+}
+
+.hero-title{
+    font-weight: 800;
+    font-size: 48px;
+    line-height: calc(64/48);
+    text-align: center;
+    color: var(--secondary-text-color);
+}
+.main-button{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: calc(20/16);
+    text-align: center;
+    color: var(--secondary-text-color);
+    background-color: var(--accent-color);
+    padding: 14px 36px;
+    box-shadow: 0px 0px 10px rgba(111, 111, 111, 0.25);
+    border-radius: 30px;
+    border: none;
+    font-family: inherit;
+}
