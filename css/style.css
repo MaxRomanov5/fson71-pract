@@ -1,3 +1,18 @@
+:root{
+    --primary-font-size: 16px;
+    --primary-color: #999999;
+    --primary-bg-color: #FFFFFF;
+    --accent-color: #4985FF;
+    --main-title-color: #323232;
+    --secondary-text-color: #FFFFFF;
+    --main-black-color: #000000;
+}
+body{
+    font-family: "Montserrat", sans-serif;
+    font-size: var(--primary-font-size);
+    color: var(--primary-color);
+    background-color: var(--primary-bg-color);
+}
 .list {
     list-style: none;
 }
@@ -7,9 +22,7 @@
 
 .nav-link {
     font-weight: 500;
-    font-size: 16px;
     line-height: calc(20/16);
-    color: #FFFFFF; 
+    color: var(--secondary-text-color); 
     background-color: black; 
-    font-family: 'Montserrat';
 }
