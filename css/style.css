@@ -65,3 +65,19 @@ ul, li {
     margin: 0;
     padding: 0;
 }
+
+.services-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: calc(53 / 36);
+    text-align: center;
+    color: var(--main-title-color);
+
+}
+
+.services-work-title {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: calc(22 / 18);
+    color: var(--main-black-color);
+}
