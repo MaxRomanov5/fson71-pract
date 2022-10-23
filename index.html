@@ -1,153 +1,178 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="./css/style.css">
-  </head>
-  <body>
-    <header class="header">
-      <nav class="nav">
-        <ul class="nav-list list">
-          <li class="nav-item"><a class="nav-link link" href="#">Головна</a></li>
-          <li class="nav-item"><a class="nav-link link" href="#">Наші проекти</a></li>
-          <li class="nav-item"><a class="nav-link link" href="#">Послуги</a></li>
-          <li class="nav-item"><a class="nav-link link" href="#">Новини</a></li>
-          <li class="nav-item"><a class="nav-link link" href="#">Контакти</a></li>
-        </ul>
-      </nav>
-    </header>
-    <main>
-      <section>
-        <p>Передова IT студія</p>
-        <h1>Ми створюємо легкі рішення важких задач і проблем</h1>
-        <button type="button">Наші проекти</button>
-      </section>
 
-      <section>
-        <h2>Ми створюємо мобільні додатки для великих корпорацій</h2>
-        <p>
-          Lorem Ipsum - це текст-"риба", що часто використовується в пресі та
-          веб-дизайні. Lorem Ipsum є стандартною "рибою" для текстів на латиниці
-          з початку XVI ст.
-        </p>
-        <ul>
-          <li>
-            <h3>Створення сайтів</h3>
-            <p>
-              Lorem Ipsum - це текст-"риба", часто використовує у пресі та
-              веб-дизайні.
-            </p>
-          </li>
-          <li>
-            <h3>Створення сайтів</h3>
-            <p>
-              Lorem Ipsum - це текст-"риба", часто використовує у пресі та
-              веб-дизайні.
-            </p>
-          </li>
-          <li>
-            <h3>Створення сайтів</h3>
-            <p>
-              Lorem Ipsum - це текст-"риба", часто використовує у пресі та
-              веб-дизайні.
-            </p>
-          </li>
-        </ul>
-        <button type="button">Всі послуги</button>
-      </section>
-      <section>
-        <h2>Високі стандарти розробки</h2>
-        <p>
-          Lorem Ipsum - це текст-"риба", що часто використовується в пресі та
-          веб-дизайні. Lorem Ipsum є стандартною "рибою" для текстів на латиниці
-          з початку XVI ст.
-        </p>
-        <a href="#">Детальніше про компанію</a>
-        <img src="./images/desktop.jpg" alt="desktop" width="500" />
-        <ul>
-          <li>
-            <span>125</span>
-            <p>Our projects</p>
-          </li>
-          <li>
-            <span>125</span>
-            <p>Our projects</p>
-          </li>
-          <li>
-            <span>125</span>
-            <p>Our projects</p>
-          </li>
-          <li>
-            <span>125</span>
-            <p>Our projects</p>
-          </li>
-          <li>
-            <span>125</span>
-            <p>Our projects</p>
-          </li>
-        </ul>
-      </section>
-      <section>
-        <h2>Наші роботи на яких ми спеціалізуємось</h2>
-        <button>Всі послуги</button>
-  <ul>
-    <li>
-      <img src="./images/rectangle.jpg" alt="people work on laptop" width="350">
-        <h3>01. Дослідження і упаковка</h3>
-          <p>Lorem Ipsum - це текст-"риба", що часто використовується в пресі та веб-дизайні.
-             Lorem Ipsum є стандартною "рибою" для текстів на латиниці з початку XVI ст.</p>
-        <button type="button">Детальніше</button>
-    </li>
-    <li>
-      <img src="./images/rectangle.jpg" alt="people work on laptop" width="350">
-        <h3>01. Дослідження і упаковка</h3>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+  <header class="header">
+    <nav class="nav">
+      <ul class="nav-list list">
+        <li class="nav-item"><a class="nav-link link" href="#">Головна</a></li>
+        <li class="nav-item"><a class="nav-link link" href="#">Наші проекти</a></li>
+        <li class="nav-item"><a class="nav-link link" href="#">Послуги</a></li>
+        <li class="nav-item"><a class="nav-link link" href="#">Новини</a></li>
+        <li class="nav-item"><a class="nav-link link" href="#">Контакти</a></li>
+      </ul>
+    </nav>
+    <!-- Slider main container -->
+    <div class="swiper">
+      <!-- Additional required wrapper -->
+      <div class="swiper-wrapper">
+        <!-- Slides -->
+        <div class="swiper-slide">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Et repellendus harum tempora iure? Dolorum ad commodi reiciendis corrupti accusantium! Temporibus excepturi itaque voluptate harum obcaecati! Quos laudantium dolore doloribus iste.</div>
+        <div class="swiper-slide"><img src="images/desktop.jpg" alt=""></div>
+        <div class="swiper-slide"><button class="main-button"></button></div>
+        ...
+      </div>
+      <!-- If we need pagination -->
+      <div class="swiper-pagination"></div>
+
+      <!-- If we need navigation buttons -->
+      <!-- <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div> -->
+
+      <!-- If we need scrollbar -->
+      <!-- <div class="swiper-scrollbar"></div> -->
+    </div>
+  </header>
+  <main>
+    <section>
+      <p>Передова IT студія</p>
+      <h1>Ми створюємо легкі рішення важких задач і проблем</h1>
+      <button type="button">Наші проекти</button>
+    </section>
+
+    <section>
+      <h2>Ми створюємо мобільні додатки для великих корпорацій</h2>
+      <p>
+        Lorem Ipsum - це текст-"риба", що часто використовується в пресі та
+        веб-дизайні. Lorem Ipsum є стандартною "рибою" для текстів на латиниці
+        з початку XVI ст.
+      </p>
+      <ul>
+        <li>
+          <h3>Створення сайтів</h3>
+          <p>
+            Lorem Ipsum - це текст-"риба", часто використовує у пресі та
+            веб-дизайні.
+          </p>
+        </li>
+        <li>
+          <h3>Створення сайтів</h3>
+          <p>
+            Lorem Ipsum - це текст-"риба", часто використовує у пресі та
+            веб-дизайні.
+          </p>
+        </li>
+        <li>
+          <h3>Створення сайтів</h3>
+          <p>
+            Lorem Ipsum - це текст-"риба", часто використовує у пресі та
+            веб-дизайні.
+          </p>
+        </li>
+      </ul>
+      <button type="button">Всі послуги</button>
+    </section>
+    <section>
+      <h2>Високі стандарти розробки</h2>
+      <p>
+        Lorem Ipsum - це текст-"риба", що часто використовується в пресі та
+        веб-дизайні. Lorem Ipsum є стандартною "рибою" для текстів на латиниці
+        з початку XVI ст.
+      </p>
+      <a href="#">Детальніше про компанію</a>
+      <img src="./images/desktop.jpg" alt="desktop" width="500" />
+      <ul>
+        <li>
+          <span>125</span>
+          <p>Our projects</p>
+        </li>
+        <li>
+          <span>125</span>
+          <p>Our projects</p>
+        </li>
+        <li>
+          <span>125</span>
+          <p>Our projects</p>
+        </li>
+        <li>
+          <span>125</span>
+          <p>Our projects</p>
+        </li>
+        <li>
+          <span>125</span>
+          <p>Our projects</p>
+        </li>
+      </ul>
+    </section>
+    <section>
+      <h2>Наші роботи на яких ми спеціалізуємось</h2>
+      <button>Всі послуги</button>
+      <ul>
+        <li>
+          <img src="./images/rectangle.jpg" alt="people work on laptop" width="350">
+          <h3>01. Дослідження і упаковка</h3>
           <p>Lorem Ipsum - це текст-"риба", що часто використовується в пресі та веб-дизайні.
             Lorem Ipsum є стандартною "рибою" для текстів на латиниці з початку XVI ст.</p>
-            <button type="button">Детальніше</button>
-    </li>
-    <li>
-      <img src="./images/rectangle.jpg" alt="people work on laptop" alt="people work on laptop" width="350">
-        <h3>01. Дослідження і упаковка</h3>
+          <button type="button">Детальніше</button>
+        </li>
+        <li>
+          <img src="./images/rectangle.jpg" alt="people work on laptop" width="350">
+          <h3>01. Дослідження і упаковка</h3>
           <p>Lorem Ipsum - це текст-"риба", що часто використовується в пресі та веб-дизайні.
             Lorem Ipsum є стандартною "рибою" для текстів на латиниці з початку XVI ст.</p>
-            <button type="button">Детальніше</button>
-    </li>
-  </ul>
-      </section>
-      <section>
-        <h2>Наші проекти</h2>
-        <p>
-          Lorem Ipsum - це текст-"риба", що часто використовується в пресі та веб-дизайні.
-           Lorem Ipsum є стандартною "рибою" для текстів на латиниці з початку XVI ст.</p>
-        <ul>
-          <li>
-            <img src="./images/rectangle3.jpg" alt="code on desktop" width="255">
-          </li>
-          <li>
-            <img src="./images/rectangle3.jpg" alt="code on desktop" width="255">
-          </li>
-          <li>
-            <img src="./images/rectangle3.jpg" alt="code on desktop" width="255">
-          </li>
-          <li>
-            <img src="./images/rectangle3.jpg" alt="code on desktop" width="255">
-          </li>
-        </ul>
-        <button type="button">Всі проекти</button>
-      </section>
-      <section>
-        <h2>Відео про нашу роботу</h2>
-        <p>Просто подивіться, як ми працюємо</p>
-        <a href="" target="_blank" rel="noopener noreferrer nofollow">Дивитись відео</a>
-      </section>
-      
-
-    </main>
-  </body>
+          <button type="button">Детальніше</button>
+        </li>
+        <li>
+          <img src="./images/rectangle.jpg" alt="people work on laptop" alt="people work on laptop" width="350">
+          <h3>01. Дослідження і упаковка</h3>
+          <p>Lorem Ipsum - це текст-"риба", що часто використовується в пресі та веб-дизайні.
+            Lorem Ipsum є стандартною "рибою" для текстів на латиниці з початку XVI ст.</p>
+          <button type="button">Детальніше</button>
+        </li>
+      </ul>
+    </section>
+    <section>
+      <h2>Наші проекти</h2>
+      <p>
+        Lorem Ipsum - це текст-"риба", що часто використовується в пресі та веб-дизайні.
+        Lorem Ipsum є стандартною "рибою" для текстів на латиниці з початку XVI ст.</p>
+      <ul>
+        <li>
+          <img src="./images/rectangle3.jpg" alt="code on desktop" width="255">
+        </li>
+        <li>
+          <img src="./images/rectangle3.jpg" alt="code on desktop" width="255">
+        </li>
+        <li>
+          <img src="./images/rectangle3.jpg" alt="code on desktop" width="255">
+        </li>
+        <li>
+          <img src="./images/rectangle3.jpg" alt="code on desktop" width="255">
+        </li>
+      </ul>
+      <button type="button">Всі проекти</button>
+    </section>
+    <section>
+      <h2>Відео про нашу роботу</h2>
+      <p>Просто подивіться, як ми працюємо</p>
+      <a href="" target="_blank" rel="noopener noreferrer nofollow">Дивитись відео</a>
+    </section>
+  </main>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+  <script src="js/index.js"></script>
+</body>
 </html>
