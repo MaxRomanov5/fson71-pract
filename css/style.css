@@ -56,3 +56,7 @@ body{
     border: none;
     font-family: inherit;
 }
+ul, li {
+    margin: 0;
+    padding: 0;
+}
