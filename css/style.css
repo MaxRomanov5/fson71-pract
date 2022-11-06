@@ -19,12 +19,39 @@ body{
 .link {
     text-decoration: none;
 }
-
+.container{
+    width: 1140px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+}
+.nav-list{
+    display: flex;
+    justify-content: flex-end;
+}
 .nav-link {
+    display: block;
+    padding: 40px 20px;
     font-weight: 500;
     line-height: calc(20/16);
     color: var(--secondary-text-color); 
-    background-color: black; 
+    /* background-color: black;  */
+}
+.header{
+    background-color: gray;
+    border-bottom:1px solid #A1A1A1;
+}
+.current::after{
+    content: "";
+    display: block;
+    opacity: 0; 
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #fff;
+}
+.current:hover::after{
+    opacity: 1;
 }
 
 .swiper {
