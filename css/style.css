@@ -181,3 +181,19 @@ display: flex;
 .text-wrap {
     padding-top: 46px;
 }
+.service-icon{
+    fill: var(--accent-color);
+}
+.ellipse-first:hover .service-icon{
+    fill: red;
+    cursor: pointer;
+}
+/* .services{
+    background-repeat: no-repeat;
+    background-size: 100% 30%, 100% 50%;
+    background-position: center bottom, center top;
+    background-image: 
+    linear-gradient(90deg, #504DC2 20.44%, #5F12D0 80.91%),
+    linear-gradient(90deg, #0cd31d 20.44%, #28742e 80.91%);
+} */
+
