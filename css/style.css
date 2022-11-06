@@ -19,6 +19,15 @@ body{
 .link {
     text-decoration: none;
 }
+ul,
+li {
+    margin: 0;
+    padding: 0;
+}
+h1, h2, h3 {
+    margin: 0;
+    padding: 0;
+}
 .container{
     width: 1140px;
     padding-left: 15px;
@@ -101,12 +110,19 @@ margin-bottom: 20px;
     border: none;
     font-family: inherit;
 }
-ul, li {
-    margin: 0;
-    padding: 0;
+
+
+.services {
+    padding-top: 110px;
+    padding-bottom: 105px;
 }
 
+
+
 .services-title {
+width: 739px;
+margin: 0 auto;
+margin-bottom: 32px;
     font-weight: 700;
     font-size: 36px;
     line-height: calc(53 / 36);
@@ -114,10 +130,54 @@ ul, li {
     color: var(--main-title-color);
 
 }
+.services-text {
+    width: 730px;
+    font-weight: 400;
+        font-size: 16px;
+        line-height: 1.55;
+        text-align: center;
+        width: 730 px;
+        color: var(--main-text-color);
+        margin: 0 auto;
+        margin-bottom: 70px;
 
+}
+.services-list {
+    display: flex;
+    margin-bottom: 55px;
+    gap: 30px;
+}
+.ellipse-first {
+    display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-shrink: 0;
+        margin-right: 17px;
+    height: 110px;
+    width: 110px;
+    border-radius: 50%;
+border: 1px solid #E0E0E0;
+
+}
+.ellipse-second {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+    border: 1px solid #4985FF;
+}
 .services-work-title {
     font-weight: 600;
     font-size: 18px;
     line-height: calc(22 / 18);
     color: var(--main-black-color);
+}
+.services-item {
+display: flex;
+
+}
+.text-wrap {
+    padding-top: 46px;
 }
