@@ -1,13 +1,12 @@
 {
-	"folders": [
-		{
-			"name": "fson71-pract",
-			"path": "."
-		}
-	],
-	"settings": {
-		"cSpell.words": [
-			"Детальніше"
-		]
-	}
+  "folders": [
+    {
+      "name": "fson71-pract",
+      "path": "."
+    }
+  ],
+  "settings": {
+    "cSpell.words": ["Детальніше"],
+    "liveServer.settings.port": 5501
+  }
 }
