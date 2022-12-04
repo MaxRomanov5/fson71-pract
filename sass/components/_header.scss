@@ -1,0 +1,22 @@
+.current{
+    &::after {
+        content: '';
+        display: block;
+        position: absolute;
+        opacity: 0;
+        height: 2px;
+        bottom: 0;
+        left: 0;
+        background-color: var(--accent-color);
+    }
+}
+.service-icon{
+    .ellipse-first:hover & {
+    fill: red;
+    cursor: pointer;
+    }
+}
+
+.hero-button{
+    @extend %main-button;
+} 
