@@ -1,3 +1,20 @@
+.hero-button {
+  display: block;
+  margin: 0 auto;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.25;
+  text-align: center;
+  color: var(--secondary-text-color);
+  background-color: var(--accent-color);
+  padding: 14px 36px;
+  -webkit-box-shadow: 0px 0px 10px rgba(111, 111, 111, 0.25);
+          box-shadow: 0px 0px 10px rgba(111, 111, 111, 0.25);
+  border-radius: 30px;
+  border: none;
+  font-family: inherit;
+}
+
 .current::after {
   content: "";
   display: block;
@@ -14,19 +31,14 @@
   cursor: pointer;
 }
 
-.hero-button {
-  display: block;
-  margin: 0 auto;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.25;
-  text-align: center;
-  color: var(--secondary-text-color);
-  background-color: var(--accent-color);
-  padding: 14px 36px;
-  -webkit-box-shadow: 0px 0px 10px rgba(111, 111, 111, 0.25);
-          box-shadow: 0px 0px 10px rgba(111, 111, 111, 0.25);
-  border-radius: 30px;
-  border: none;
-  font-family: inherit;
+.hero {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
 }/*# sourceMappingURL=main.css.map */

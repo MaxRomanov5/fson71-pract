@@ -20,3 +20,6 @@
 .hero-button{
     @extend %main-button;
 } 
+.hero{
+    @include flexCenter($ai: baseline)
+}
