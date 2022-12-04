@@ -23,3 +23,38 @@
 .hero{
     @include flexCenter($ai: baseline)
 }
+
+.wr{
+    width: 200px;
+    height: 700px;
+    background-color: yellow;
+
+ @include mq(tab){
+    width: 450px;
+        display: flex;
+        flex-wrap: wrap;
+        gap: 30px;
+        height: 430px;
+ }
+
+        @include mq(desk) {
+            width: 700px;
+            gap: 50px;
+            height: 200px;
+        }
+
+
+}
+
+.item-wr{
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    border-bottom: 1px solid black;
+
+    @include mq(mob-only) {
+        margin-bottom: 10px;
+    }
+}
+
+ 
