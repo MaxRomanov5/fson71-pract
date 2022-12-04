@@ -1,0 +1,24 @@
+.block {
+    width: 1000px;
+    height: 400px;
+    display: flex;
+    gap: 30px;
+}
+
+.auto {
+    width: 150px;
+    height: 200px;
+    background-size: cover;
+}
+
+@each $av in bmw,
+tesla,
+lexus,
+merc,
+lanos,
+apple {
+    .#{$av} {
+        background-image: url('../../images/#{$av}.png');
+		background-size: cover;
+    }
+}

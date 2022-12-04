@@ -15,6 +15,51 @@
   font-family: inherit;
 }
 
+.block {
+  width: 1000px;
+  height: 400px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 30px;
+}
+
+.auto {
+  width: 150px;
+  height: 200px;
+  background-size: cover;
+}
+
+.bmw {
+  background-image: url("../../images/bmw.png");
+  background-size: cover;
+}
+
+.tesla {
+  background-image: url("../../images/tesla.png");
+  background-size: cover;
+}
+
+.lexus {
+  background-image: url("../../images/lexus.png");
+  background-size: cover;
+}
+
+.merc {
+  background-image: url("../../images/merc.png");
+  background-size: cover;
+}
+
+.lanos {
+  background-image: url("../../images/lanos.png");
+  background-size: cover;
+}
+
+.apple {
+  background-image: url("../../images/apple.png");
+  background-size: cover;
+}
+
 .current::after {
   content: "";
   display: block;
