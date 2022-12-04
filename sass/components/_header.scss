@@ -70,7 +70,7 @@
         background-image: url();
     }
 
-    @media screen and (min-width: 481px) {
+    @media screen and (min-width: 768px) {
         background-image: url();
 
         @media (min-device-pixel-ratio: 2),
@@ -81,7 +81,7 @@
         }
     }
 
-    @media screen and (min-width: 769px) {
+    @media screen and (min-width: 1200px) {
         background-image: url();
 
         @media (min-device-pixel-ratio: 2),
